@@ -1,0 +1,156 @@
+body {
+  padding-top: 85px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.navbar{
+	background:#fff;
+	min-height:85px;
+	text-transform:uppercase;
+	border-bottom:#ccc solid 1px;
+	padding-top:15px;
+	text-align:center;	
+}
+.navbar-brand{
+	padding:0;
+}
+.navbar li:hover{
+	background:#f4f4f4;
+	cursor:pointer;
+}
+.navbar li.active{
+	background:#406c96;
+	color:#fff;
+}
+.navbar li.active a{
+	color:#fff;
+	pointer-events:none;
+}
+.navbar-nav  > li > a{
+	color:#666;
+}
+section{
+	padding:30px 0 22px 0;
+	overflow:hidden;
+}
+section h1{
+	padding:30px 0;
+}
+.section-default{
+	background:#f7f8f7;
+}
+.section-primary{
+	background:#406c96;
+	color:#fff;
+}
+.col-md-8{
+	padding-right:0px;
+	padding-left:1px;
+	border-right:2px solid #406c96;
+}
+h1{
+	text-transform:uppercase;
+	font-family:'nexaLight', 'Tahoma', sans-serif;
+}
+h2, h3, h4{
+	font-family:'nexaLight', 'Tahoma', sans-serif;
+	text-align: center;
+}
+@font-face{
+	font-family: nexaLight;
+	src: url(fonts/Nexa%20Light.otf);
+	font-weight:normal;
+}
+label{
+	font-family:'nexaLight', 'Tahoma', sans-serif;
+	font-size:18px;
+}
+#name{
+	color:yellow;
+	text-decoration:none;
+}
+#name:hover{
+	text-decoration:none;
+}
+.btn-default{
+	background:#406c96;
+	color:#fff;
+	font-family:'nexaLight', 'Tahoma', sans-serif;
+}
+input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, button:hover {
+	box-shadow:1px 1px 15px #406c96;
+}
+input[type="text"], input[type="password"]{
+	border-top:0;
+	border-bottom:2px solid #406c96;
+	border-left:0;
+	border-right:0;
+	background:#fff;
+	border-radius:0;
+}
+h4{
+	padding-bottom:7px;
+	border-bottom:2px solid #406c96;
+}
+#date_proper > label, #date_proper > div{
+	padding-left:5px;
+	padding-right:5px;
+	text-align:center;
+}
+footer{
+	padding-top:6px;
+}
+.fa-pad{
+	padding-right:10px;
+}
+.tip{
+	font-size:20px;
+}
+.newpara{
+	margin-bottom:0px;
+	text-align:center;
+}
+p{
+	font-family:'nexaLight', 'Tahoma', sans-serif;
+	font-size:22px;
+	text-align:justify;
+}
+.shrink{
+	font-size:10px;
+}
+.headings{
+	border-bottom:none;
+	margin-top:20px;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+th{
+	padding:5px;
+	text-align:center;
+}
+a:hover{
+	text-decoration:none;
+}
+
+
